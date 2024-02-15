@@ -5,10 +5,7 @@
 
 ## Project Overview
    *  The goal of this project is to create a 3D game using raycasting. The project involves creating a window with SDL2, implementing raycasting to draw walls, and allowing for camera angle adjustments.
-   
-## Deployment
-- [Landing page](#) (https://ojeifod.wixsite.com/the-maze-explorer)
-- [Final Project Blog Article](#) (https://ojeifodavid842.hashnode.dev/unveiling-the-maze-project)
+
 - Installation
  Clone the repository.
    ```bash
