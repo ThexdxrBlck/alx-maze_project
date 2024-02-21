@@ -1,13 +1,11 @@
 #ifndef MAZE_H
 #define MAZE_H
-
-// Including necessary SDL and standard C libraries
-#include <SDL2/SDL_events.h>
 #include <SDL2/SDL_video.h>
+#include <SDL2/SDL_events.h>
 #include <SDL2/SDL_keyboard.h>
 #include <SDL2/SDL_rect.h>
-#include <SDL2/SDL_render.h>
 #include <SDL2/SDL_scancode.h>
+#include <SDL2/SDL_render.h>
 #include <SDL2/SDL_stdinc.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,17 +13,17 @@
 #include <stdbool.h>
 #include <math.h>
 
-// Define the value of PI
+
 #define PI 3.142
 
-// Structure to represent a 2D vector
+
 typedef struct vector
 {
     float x;
     float y;
 } Vector;
 
-// External declarations for global variables
+
 extern int map[];
 extern bool running;
 extern int width;
@@ -41,7 +39,7 @@ extern Vector mapStart;
 extern SDL_Window *window;
 extern SDL_Renderer *renderer;
 
-// Function declarations for various operations
+
 void drawMap(void);
 void player_drawing(void);
 void sections_drawing(void);
